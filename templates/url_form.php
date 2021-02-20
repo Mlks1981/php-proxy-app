@@ -21,7 +21,7 @@ html body {
 	
 	border-bottom:1px solid #151515;
 	
-    background:#FFC8C8;
+    background:#000000;
 	
 	height:45px;
 	line-height:45px;
