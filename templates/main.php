@@ -26,21 +26,34 @@ html body {
 
 #frm {
 	padding:10px 15px;
-	background-color:#FFC8C8;
+	background-color:#000000;
 	
 	border:1px solid #818181;
 	
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
 }
 
 #footer {
 	text-align:center;
 	font-size:10px;
 	margin-top:35px;
-	clear:both;
+    clear:both;
+    color:#FFFFFF;
 }
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	html {
+		background: url("https://mlks1981.tk/images/bg.gif") no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 </style>
 
 </head>
@@ -51,7 +64,7 @@ html body {
 <div id="container">
 
 	<div style="text-align:center;">
-		<h1 style="color:blue;">PHP-Proxy</h1>
+		<h1 style="color:white;">PHP-Proxy</h1>
 	</div>
 	
 	<?php if(isset($error_msg)){ ?>
