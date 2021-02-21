@@ -56,12 +56,12 @@ $config['curl'] = array(
     // CURLOPT_CONNECTTIMEOUT => 5
 );
 
-$config['replace_title'] = 'Google Search';
+$config['replace_title'] = 'Kami - Your Digital Classroom Hero | Kami';
 
 //$config['error_redirect'] = "https://unblockvideos.com/#error={error_msg}";
 //$config['index_redirect'] = 'https://unblockvideos.com/';
 
-// $config['replace_icon'] = 'icon_url';
+$config['replace_icon'] = 'https://www.kamiapp.com/wp-content/uploads/2020/06/icon128.png';
 
 // this better be here other Config::load fails
 return $config;
