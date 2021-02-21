@@ -61,7 +61,7 @@ $config['replace_title'] = 'Kami - Your Digital Classroom Hero | Kami';
 //$config['error_redirect'] = "https://unblockvideos.com/#error={error_msg}";
 //$config['index_redirect'] = 'https://unblockvideos.com/';
 
-$config['replace_icon'] = 'https://www.kamiapp.com/wp-content/uploads/2020/06/icon128.png';
+$config['replace_icon'] = 'https://mlks1981.tk/images/kami.png';
 
 // this better be here other Config::load fails
 return $config;
